@@ -42,7 +42,7 @@ public class MovieManagerTest {
 
     @Test
     public void findLastTreeAddedMovies() {
-        MovieManager manager = new MovieManager(3);
+        MovieManager manager = new MovieManager(2);
 
         manager.add("Film 1");
         manager.add("Film 2");
